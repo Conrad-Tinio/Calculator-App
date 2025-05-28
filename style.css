@@ -1,0 +1,117 @@
+.btn-primary {
+    background-color: rgb(170, 0, 170);
+}
+
+body {
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    color: #ffff;
+    font-size: large;
+}
+
+#content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+td {
+    background-color: transparent !important;
+    padding: 4px !important;
+}
+
+.calculator-container {
+    background: rgba(35, 0, 48, 0.8) !important; 
+    backdrop-filter: blur(7px);
+    border-color: rgb(255, 255, 255) !important;
+    width: 100%;
+}
+
+.cal-btn {
+    width: 100%;
+    height: 100%;
+    color: white !important;
+    border: none !important;
+
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 5px; 
+}
+
+.color-btn {
+    background-color: rgb(189, 189, 189) !important;
+    color: black !important;
+}
+
+.btn.cal-btn:hover {
+    background-color: rgb(56, 56, 56) !important;
+}
+
+.btn.cal-btn:active {
+    background-color: rgb(45, 45, 45) !important;
+}
+
+.display {
+    min-height: 2.5rem;
+    overflow: hidden;
+}
+
+.calculator-display {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+h4 {
+    color: rgb(214, 213, 213) !important;
+}
+
+.cal-btn-number {
+    width: 100%;
+    height: 100%;
+    border: none !important;
+
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 5px; 
+}
+
+.btn.cal-btn-number:hover {
+    background-color: rgb(155, 155, 155) !important;
+}
+
+.btn.cal-btn-number:active {
+    background-color: rgb(124, 124, 124) !important;
+}
+
+.btn.btn-primary:hover {
+    background-color: rgb(130, 1, 130) !important;
+}
+
+.btn.btn-primary:active {
+    background-color: rgb(100, 3, 103) !important;
+}
+
+.btn.btn-danger:hover {
+    background-color: #a82431 !important;
+}
+
+.btn.btn-danger:active {
+    background-color: #7d1721 !important;
+}
+
+.btn.btn-warning:hover {
+    background-color: #b88d02 !important;
+}
+
+.btn.btn-warning:active {
+    background-color: #886902 !important;
+}
